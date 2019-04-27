@@ -1,7 +1,5 @@
 # Tiny Core Factory:
-# https://github.com/tinycorefactory
-# BetterBox:
-# https://github.com/tinycorefactory/assembly-line
+# https://tinycorefactory.github.io
 #
 # Architectures:
 # x86_64
