@@ -1,0 +1,2 @@
+# Normalize text files to LF
+*.sh text eol=lf
