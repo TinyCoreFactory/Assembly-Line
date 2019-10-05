@@ -66,7 +66,7 @@ unsquashfs -f -d new -no-xattrs /tmp/tce/sce/dependencies.sce
 # Delete dependency files no longer needed
 sudo rm -rf /tmp/tce/sce/*
 
-# Set bettercap archive name here
+# Set bettercap version here
 bcversion=2.24.1
 
 # Download other packages to be included
