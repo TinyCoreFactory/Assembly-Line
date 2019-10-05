@@ -67,10 +67,10 @@ unsquashfs -f -d new -no-xattrs /tmp/tce/sce/dependencies.sce
 sudo rm -rf /tmp/tce/sce/*
 
 # Set bettercap archive name here
-bczip=bettercap_linux_amd64_2.24.1.zip
+bcversion=2.24.1
 
 # Download other packages to be included
-wget https://github.com/bettercap/bettercap/releases/download/v2.24.1/$bczip -P archives
+wget https://github.com/bettercap/bettercap/releases/download/v$bcversion/bettercap_linux_amd64_$bcversion.zip -P archives
 wget https://github.com/bettercap/caplets/archive/master.zip -P archives
 wget https://github.com/bettercap/ui/releases/download/v1.3.0/ui.zip -P archives
 
